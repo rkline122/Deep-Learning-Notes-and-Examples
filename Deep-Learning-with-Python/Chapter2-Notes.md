@@ -2,7 +2,7 @@
 
 * A <b>category</b> in a classification problem is called a <b>class</b>
 * Data points are referred to as <b>samples</b>
-* The class associated with a specific label is called a <b>label</b>
+* The class associated with a specific sample is called a <b>label</b>
 
 * The core building block of neural networks is the <b>layer</b>. Think filter for data
 * Layers extract representations out of data fed into them.
@@ -47,7 +47,7 @@
         2. Run the model to obtain predictions (forward pass)
         3. Compute loss of the model on the batch
         4. Compute the gradient of the loss with regards to the model's parameters (backward pass)
-        5. Move parameters in the opposite dircetion from the gradient, reducing the loss on the batch. The learning rate is a scalar factor that sets the "speed" of the gradient descent process. 
+        5. Move parameters in the opposite direction from the gradient, reducing the loss on the batch. The learning rate is a scalar factor that sets the "speed" of the gradient descent process. 
         6. Repeat until the loss seems sufficiently low
     * Most efficent to run with mini-batches of reasonable size 
     * Momentum addresses two issues with SGD- convergence speed and local minimum
